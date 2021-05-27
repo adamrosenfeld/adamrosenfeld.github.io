@@ -1,0 +1,13 @@
+body {
+    background: darkslategray;
+}
+
+form, h1 {
+    padding-left: 50px
+    
+}
+
+textarea {
+    background: black;
+    color: #adff2f;
+}

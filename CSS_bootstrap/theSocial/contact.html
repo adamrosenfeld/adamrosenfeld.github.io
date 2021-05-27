@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap: Project 2</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logoblack.png" width="180px" alt="The Social Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link active" href="#">Contact</a>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="email" placeholder="Email Address" aria-label="Email">
+                <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+                <button class="btn btn-outline-dark my-2 my-sm-0 mr-2" type="submit">Login</button>
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Register</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="background3" class="d-flex align-items-center">
+        <div id="message">
+            <h1 class="text-white text-uppercase font-weight-bold">Wisdom through adversity. Unity through purpose.</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form>
+                    <div class="form-group font-weight-bold">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group font-weight-bold">
+                        <label for="email">Email address</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter email">
+                        <small class="form-text text-muted">We'll never share your email with anyone else</small>
+                    </div>
+                    <div class="form-group font-weight-bold">
+                        <label for="feedback">What would you like to share with us?</label>
+                        <textarea class="form-control" id="feedback" rows="2"></textarea>
+                    </div>
+                    <div class="form-group font-weight-bold">
+                        <label for="fileUpload">File input</label>
+                        <input type="file" class="form-control-file" id="fileUpload">
+                        <small class="form-text text-muted">You can upload images of PDF files if necessary</small>
+                    </div>
+                    <fieldset class="form-group">
+                        <h4 class="border-bottom border-dark">Are you a current user?</h4>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="yesInput" checked> 
+                            <label class="form-check-label" for="yesInput">Yes, I am.</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" class="form-check-input" id="noInput">
+                            <label class="form-check-label" for="noInput">Not yet, but I will be soon. I promise.</label>
+                        </div>
+                        <div class="form-group pt-4">
+                            <div class="form-check-inline">
+                                <input type="checkbox" class="form-check-input" id="robot">
+                                <label class="form-check-input" for="robot">I am not a robot.</label>   
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-6 text-secondary">
+                <br>
+                <h2 class="text-dark">We really want to hear from you.</h2>
+                <p class="lead">Your feedback is important to us. We are continously improving our products, and your data helps us make those improvements.</p>
+                <p>Please be patient with us as we are curremntly revamping our system. If you do not receive a response within 48 hours, it means we are too busy to reply to your complaints.</p>
+            </div>
+        </div>    
+    </div>            
+
+<!-- FOOTER -->
+
+    <footer>
+        <div class="container bg-dark mw-100">
+            <div class="row">
+                <div id="foot-logo" class="col-md-6">
+                    <a href="index.html"><img class="logo" src="img/logowhite.png" width="180px" alt="The Social Logo"></a>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase text-primary">Our app</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">News Feed</a></li>
+                        <li><a href="#">Messenger</a></li>
+                        <li><a href="#">Profiles</a></li>
+                        <li><a href="#">Photos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase text-primary">How to</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Basics</a></li>
+                        <li><a href="#">Create a Page</a></li>
+                        <li><a href="#">Create an Ad</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase text-primary">Menu</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+<!-- Things to debug
+    1) On lines 80 - 83: I used "form-check-inline" but the text is shifted higher than the checkbox. This has to be something with the fieldset group.
+    2) Both radio buttons are clickable. Only one should be clickable and if you click the other the first should be cleared. -->

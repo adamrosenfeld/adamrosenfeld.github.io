@@ -1,0 +1,77 @@
+
+/* NOTE: reset default styling for better control */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {  
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    height: 100%;
+}
+
+.navbar {
+    height: 45px;
+}
+
+.nav-bar-nav {
+    height: 45px;
+}
+
+.navbar-nav a:hover {
+    background: #6c757d;
+}
+
+#message {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message h1 {
+    font-size: 3.375rem;
+
+}
+
+#background1 {
+    background: url('img/backgrounds/background1.jpg') center center no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#background2 {
+    background: url('img/backgrounds/background2.jpg') center center no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+/* NOTE: forces images to be the same width of the parent container */
+.text-secondary img {
+    width: 100%
+}
+
+/* * Can this be applied in bootstrap? */
+/* NOTE: yes, very common practice. */
+.row {
+    padding: 50px;
+}
+
+#background3 {
+    background: url('img/backgrounds/background3.jpg') center center no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#foot-logo {
+    padding-bottom: 20px;
+}
+
+footer li a {
+    color: white;
+}

@@ -1,0 +1,21 @@
+html, body {  
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#message {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#message h1 {
+    font-size: 54px;
+}
+
+#background {
+    background: url('/img/background1.jpg') center center no-repeat;
+    height: 100%;
+    width: 100%;
+}

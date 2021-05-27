@@ -1,0 +1,48 @@
+#backgroundImg {
+    position: relative;  
+}
+
+/* * NAVBAR */
+
+#navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#logo {
+    color: grey;
+    cursor: default;
+}
+
+/* * MAIN */
+
+.page-holder {
+    min-height: 100vh;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.navbar-brand  {
+    color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    width: 40%;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+
+form div {
+    padding: 3px;
+}
